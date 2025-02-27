@@ -1,0 +1,11 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/QIEVAWP.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 1400vh;
+   background-repeat: no-repeat;
+  }
+  .card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+  }

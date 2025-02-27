@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Valentine!</title>
+</head>
+
+<body style="font-style: italic;" class="bg-light">
+
+    <!-- POPUP -===========================-->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">❤️ Love is in the Air ❤️</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-danger fw-bolder text-white">
+                    "Love is not about possession. It’s all about appreciation." 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---==============================  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark   p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand  " href="#">
+                <img src="./assests/icon.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
+                <span onclick="getit(event)" style="color: pink;" class="fw-bolder ms-2 " type="button"
+                     data-bs-toggle="modal" data-bs-target="#exampleModal"> Love </span>
+            </a>
+            <a class="navbar-brand " style="color: pink;" href="#origin">
+                <img src="./assests/hearts-4790575_1280.png" alt="" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                The Origins of Valentine's Day</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a style="color: pink;" class="nav-link active" aria-current="page" href="#gift">
+                            <img src="./assests/present-150291_1280.png" alt="" width="25" height="19"
+                                class="d-inline-block align-text-top">
+
+                            Gift's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: pink;" class="nav-link active" href="#lovestories">
+                            <img src="./assests/letter-6527623_1280.png" alt="" width="25" height="19"
+                                class="d-inline-block align-text-top">
+                            Love Stories </a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a style="color: pink;" class="nav-link active" href="#lovecalculator">
+
+                            <img src="./assests/calculator-6640217_1280.png" alt="" width="25" height="19"
+                                class="d-inline-block align-text-top">
+                            Love Calculator</a>
+                    </li>
+                </ul>
+                <span class="navbar-text pe-5 text-danger">
+                    "Love is about how much you give, not how long you’ve been together."
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HISTORY OF VALENTINES DAY -->
+    <div id="origin" class="container mt-5">
+        <h3 style="color: pink;">The Origins of Valentine's Day</h3>
+        <div class="row">
+
+            <div class="col-6">
+                <table class="table table-hover">
+                    <tr>
+                        <th>
+                            <h4 style="color: rebeccapurple;">Welcome !</h4>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><a class="text-decoration-none text-white" href="#st-valentine">The Legend of St.
+                                Valentine</a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a class="text-decoration-none text-white" href="#festival">Origins of Valentine’s Day: A
+                                Pagan
+                                Festival in February</a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="text-decoration-none text-white" href="#romance">Valentine's Day Meaning: A Day of
+                                Romance and Love</a></td>
+                    </tr>
+                    <tr>
+                        <td><a class="text-decoration-none text-white" href="#cupid">Who Is Cupid?</a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a class="text-decoration-none text-white" href="#greeting">Valentine’s Day Greetings and
+                                Gifts</a></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="col-6 border border-end-0 border-top-0 border-bottom-0 border-5 border-danger text-white">
+
+                <h5 style="line-height: 40px;font-style: italic;">
+                    Valentine’s Day is a holiday celebrated every February 14; this year Valentine's Day falls on a
+                    Friday.
+                    Across the United States and in other places around the world, candy, flowers and gifts are
+                    exchanged
+                    between loved ones, all in the name of St. Valentine.
+
+                    But who is this mysterious saint and where did these traditions come from? Find out about the
+                    meaning
+                    and history of Valentine’s Day, from the ancient Roman ritual of Lupercalia that welcomed spring to
+                    the
+                    card-giving customs of Victorian England.
+                </h5>
+                <!-- <button style="font-style: italic;" class="btn btn-lg btn-dark"><a -->
+                <a class=" btn btn-dark text-decoration-none text-white" href="#st-valentine">Read more</a>
+            </div>
+        </div>
+
+        <div id="st-valentine" style="margin-top: 190px; text-align: center;" class="container bg-light rounded-3 p-4">
+            <h2 style="color: purple;" class="mb-5">The Legend of St. Valentine</h2>
+            <img src="https://assets.editorial.aetnd.com/uploads/2009/12/st-valentine_getty-695888681.jpg?width=1080&height=693&crop=1080%3A693%2Csmart&quality=75&auto=webp"
+                alt="St. Valentine" class="img-fluid rounded-3" style="max-height: 400px;">
+            <h3 style="color: red;" class="mt-5 ">Saint Valentine, who according to some sources is actually two
+                distinct historical
+                characters who were said to have healed a child while imprisoned and executed by decapitation.</h3>
+            <p class="text-dark fw-bold mt-3 ">The history of Valentine's Day—and the story of its patron saint—is
+                shrouded in
+                mystery. We do know that
+                February has long been celebrated as a month of romance, and that St. Valentine’s Day, as we know it
+                today, contains vestiges of both Christian and ancient Roman tradition. But who was Saint Valentine, and
+                how did he become associated with this ancient rite?
+
+                The Catholic Church recognizes at least three different saints named Valentine or Valentinus, all of
+                whom were martyred. One legend contends that Valentine was a priest who served during the third century
+                in Rome. When Emperor Claudius II decided that single men made better soldiers than those with wives and
+                families, he outlawed marriage for young men. Valentine, realizing the injustice of the decree, defied
+                Claudius and continued to perform marriages for young lovers in secret. When Valentine’s actions were
+                discovered, Claudius ordered that he be put to death. Still others insist that it was Saint Valentine of
+                Terni, a bishop, who was the true namesake of the holiday. He, too, was beheaded by Claudius II outside
+                Rome.</p>
+        </div>
+
+        <div id="festival" style="margin-top: 100px; text-align: center;" class="container bg-light rounded-3 p-4">
+            <h2 style="color: purple;" class="mb-5"> A Pagan Festival in February</h2>
+            <img src="./assests/lantern-4670043_1280.jpg" alt="St. Valentine" class="img-fluid  rounded-3"
+                style="max-height: 400px;">
+
+            <p class="text-dark fw-bold mt-3">
+                While some believe that Valentine’s Day is celebrated in the middle of February to commemorate the
+                anniversary of Valentine’s death or burial—which probably occurred around A.D. 270—others claim that the
+                Christian church may have decided to place St. Valentine’s feast day in the middle of February in an
+                effort to “Christianize” the pagan celebration of Lupercalia. Celebrated at the ides of February, or
+                February 15, Lupercalia was a fertility festival dedicated to Faunus, the Roman god of agriculture, as
+                well as to the Roman founders Romulus and Remus.
+
+                To begin the festival, members of the Luperci, an order of Roman priests, would gather at a sacred cave
+                where the infants Romulus and Remus, the founders of Rome, were believed to have been cared for by a
+                she-wolf or lupa. The priests would sacrifice a goat, for fertility, and a dog, for purification. They
+                would then strip the goat’s hide into strips, dip them into the sacrificial blood and take to the
+                streets, gently slapping both women and crop fields with the goat hide.
+
+                Far from being fearful, Roman women welcomed the touch of the hides because it was believed to make them
+                more fertile in the coming year. Later in the day, according to legend, all the young women in the city
+                would place their names in a big urn. The city’s bachelors would each choose a name and become paired
+                for the year with his chosen woman. These matches often ended in marriage.
+
+            </p>
+        </div>
+
+        <div id="romance" style="margin-top: 100px; text-align: center;" class="container bg-light rounded-3 p-4">
+            <h2 style="color: purple;" class="mb-5">A Day of Romance and Love</h2>
+            <img src="https://assets.editorial.aetnd.com/uploads/2009/12/valentines-day-cupid-gettyimages-524921126.jpg?width=1080&height=699&crop=1080%3A699%2Csmart&quality=75&auto=webp"
+                alt="St. Valentine" class="img-fluid  rounded-3" style="max-height: 400px;">
+            <h3 style="color: red;" class="mt-5">A victorian valentine depicting cupids.</h3>
+            <p class="text-dark fw-bold mt-3">
+                Lupercalia survived the initial rise of Christianity but was outlawed—as it was deemed “un-Christian”—at
+                the end of the 5th century, when Pope Gelasius declared February 14 St. Valentine’s Day. It was not
+                until much later, however, that the day became definitively associated with love.
+
+                During the Middle Ages, it was commonly believed in France and England that February 14 was the
+                beginning of birds’ mating season, which added to the idea that the middle of Valentine’s Day should be
+                a day for romance. The English poet Geoffrey Chaucer was the first to record St. Valentine’s Day as a
+                day of romantic celebration in his 1375 poem “Parliament of Fowls,” writing, “For this was sent on Seynt
+                Valentyne’s day / Whan every foul cometh ther to choose his mate.”
+
+                Valentine greetings were popular as far back as the Middle Ages, though written Valentine’s didn’t begin
+                to appear until after 1400. The oldest known valentine still in existence today was a poem written in
+                1415 by Charles, Duke of Orleans, to his wife while he was imprisoned in the Tower of London following
+                his capture at the Battle of Agincourt. (The greeting is now part of the manuscript collection of the
+                British Library in London, England.) Several years later, it is believed that King Henry V hired a
+                writer named John Lydgate to compose a valentine note to Catherine of Valois.
+            </p>
+        </div>
+        <div id="cupid" style="margin-top: 100px; text-align: center;" class="container bg-light rounded-3 p-4">
+            <h2 style="color: purple;" class="mb-5">Cupid</h2>
+            <img src="./assests/angel-427480_1280.jpg" alt="St. Valentine" class="img-fluid  rounded-3"
+                style="max-height: 500px;">
+            <p class="text-dark fw-bold mt-3">
+                Cupid is often portrayed on Valentine’s Day cards as a naked cherub launching arrows of love at
+                unsuspecting lovers. But the Roman God Cupid has his roots in Greek mythology as the Greek god of love,
+                Eros. Accounts of his birth vary; some say he is the son of Nyx and Erebus; others, of Aphrodite and
+                Ares; still others suggest he is the son of Iris and Zephyrus or even Aphrodite and Zeus (who would have
+                been both his father and grandfather).
+
+                According to the Greek Archaic poets, Eros was a handsome immortal played with the emotions of Gods and
+                men, using golden arrows to incite love and leaden ones to sow aversion. It wasn’t until the Hellenistic
+                period that he began to be portrayed as the mischievous, chubby child he’d become on Valentine’s Day
+                cards.
+            </p>
+        </div>
+        <div id="greeting" style="margin-top: 100px; text-align: center;" class="container bg-light rounded-3 p-4">
+            <h2 style="color: purple;" class="mb-5"> Greetings and Gifts</h2>
+
+            <p class="text-dark fw-bold mt-3">
+                In addition to the United States, Valentine’s Day is celebrated in Canada, Mexico, the United Kingdom,
+                France and Australia. In Great Britain, Valentine’s Day began to be popularly celebrated around the 17th
+                century.
+
+                By the middle of the 18th, it was common for friends and lovers of all social classes to exchange small
+                tokens of affection or handwritten notes, and by 1900 printed cards began to replace written letters due
+                to improvements in printing technology. Ready-made cards were an easy way for people to express their
+                emotions in a time when direct expression of one’s feelings was discouraged. Cheaper postage rates also
+                contributed to an increase in the popularity of sending Valentine’s Day greetings.
+
+                Americans probably began exchanging hand-made valentines in the early 1700s. In the 1840s, Esther A.
+                Howland began selling the first mass-produced valentines in America. Howland, known as the “Mother of
+                the Valentine,” made elaborate creations with real lace, ribbons and colorful pictures known as “scrap.”
+
+                Today, according to Hallmark, an estimated 145 million Valentine’s Day cards are sent each year, making
+                Valentine’s Day the second largest card-sending holiday of the year (more cards are sent at Christmas).
+            </p>
+        </div>
+    </div>
+
+    <!--   -->
+    <!-- GIFTS SECTION -->
+    <div id="gift" class="container text-center mt-5 bg-light rounded-3 p-4">
+        <h1>A Gift for Every Heart</h1>
+        <h3 style="color:purple;margin-top: 30px;">Romantic Gifts for Her</h3>
+        <p style="margin-top: 20px;color:red;"> "Surprise her with a thoughtful gift that will make her feel
+            special. From elegant
+            jewelry to luxurious
+            perfumes, there’s something for every woman."</p>
+
+        <div class="container">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card h-100">
+                            <img src="assests/jewellery-3894073_1280.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Jwellery</h5>
+                                <p class="card-text flex-grow-1">Jewelry is a timeless way to express love and
+                                    admiration. Whether it’s a delicate bracelet, a shimmering necklace, or a meaningful
+                                    ring, these gifts symbolize lasting affection. Choose pieces that reflect your loved
+                                    one’s personality—perhaps a birthstone necklace, a charm bracelet, or a classic gold
+                                    band.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card h-100">
+                            <img src="assests/rings-3813522_1280.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Ring</h5>
+                                <p class="card-text flex-grow-1">
+                                    A ring is more than just a piece of jewelry—it is a timeless symbol of love,
+                                    commitment, and togetherness. Whether it’s a classic gold band, a dazzling diamond
+                                    ring, or a personalized engraved piece, rings hold deep sentimental value.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card h-100">
+                            <img src="assests/beauty-6837031_1280.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">beauty sets</h5>
+                                <p class="card-text flex-grow-1">Pamper your loved one with a luxurious spa or beauty
+                                    set that offers relaxation and self-care. These sets often include scented candles,
+                                    bath bombs, skincare essentials, and aromatic oils that create a soothing
+                                    experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card h-100">
+                            <img src="assests/dessert-5582984_1280.jpg" class="card-img-top" alt="...">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title"> chocolates</h5>
+                                <p class="card-text flex-grow-1">Classic yet always appreciated, flowers and chocolates
+                                    never fail to bring a smile. A bouquet of roses, lilies, or tulips carries deep
+                                    romantic meanings, while gourmet chocolates offer a sweet way to indulge in love</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="margin-top: 70px;" class="container">
+            <h3 style="color: purple;margin-top: 30px;">Thoughtful Gifts for Him</h3>
+            <p style="margin-top: 20px;color:red;">"For the special man in your life, find the perfect gift
+                that blends luxury and
+                practicality. Whether it's a timeless watch or a personalized keepsake, show him how much you care."
+            </p>
+
+            <div class="container">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card h-100">
+                                <img src="assests/casio-8392121_1280.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">⌚Watches</h5>
+                                    <p class="card-text flex-grow-1">A watch is more than just a timepiece; it is a
+                                        statement of style, personality, and sentiment. Whether it's a luxury watch for
+                                        a sophisticated touch, a sporty one for an active lifestyle, or a smartwatch for
+                                        convenience, the perfect watch can make a lasting impression. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card h-100">
+                                <img src="assests/wallet-5977702_1280.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">👛Wallets </h5>
+                                    <p class="card-text flex-grow-1">Wallets and belts are practical yet stylish gifts
+                                        that blend utility with elegance. A high-quality leather wallet not only
+                                        organizes essentials but also represents a refined sense of fashion. A sleek
+                                        belt completes an outfit, adding sophistication to any look.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card h-100">
+                                <img src="assests/glasses-5217830_1280.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">🖋️ Personalized items</h5>
+                                    <p class="card-text flex-grow-1">Personalized gifts carry a special charm, turning
+                                        simple objects into meaningful treasures. Engraved pens add a sophisticated
+                                        touch to a professional’s desk, while custom keychains serve as everyday
+                                        reminders of love.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card h-100">
+                                <img src="assests/gadgets-4503773_1280.jpg" class="card-img-top" alt="...">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">🎧 Tech gadgets</h5>
+                                    <p class="card-text flex-grow-1">For those who love technology, gadgets like
+                                        wireless headphones and smartwatches make excellent gifts. Wireless headphones
+                                        provide a seamless music experience, perfect for relaxation or workouts.
+                                        Smartwatches help track health, stay connected, and enhance daily life</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container mt-5  table table-hover ">
+            <h2 style="color: purple;">Gift-Ideas & Last-Minute Valentine’s Day Gifts</h2>
+            <p style="color: red;" class=" mt-4">"Running out of time? Don’t worry—here are last-minute gift ideas that
+                are still
+                thoughtful and
+                meaningful."</p>
+            <ul class="list-group text-start ">
+                <li class="list-group-item bg-light text-dark"><b class="text-dark">Personalized Gifts:</b>
+                    Custom-printed T-shirts, mugs, or pillows with personal
+                    messages or images. For last-minute, order custom items online with fast shipping or print them
+                    yourself.</li>
+                <li class="list-group-item bg-light text-dark"><b class="text-dark">Tech Gadgets:</b> Smartwatches,
+                    wireless headphones, Bluetooth speakers, or
+                    portable chargers. For last-minute, grab them from an electronics store or order from retailers with
+                    fast delivery.</li>
+                <li class="list-group-item bg-light text-dark"> <b class="text-dark">Subscription Boxes:</b> Monthly
+                    deliveries of beauty products, gourmet snacks,
+                    or books. For last-minute, gift a digital subscription like Netflix, Spotify, or a magazine.</li>
+                <li class="list-group-item bg-light text-dark"> <b class="text-dark"> Customized Love Letters or
+                        Poems:</b> Expressing your feelings through a
+                    handwritten or digital letter or poem. For last-minute, handwrite a personal note or send a
+                    digitally crafted poem.</li>
+                <li class="list-group-item bg-light text-dark"><b class="text-dark">Instant Download Gifts:</b> Digital
+                    love art, quotes, or calendars that can be
+                    printed or shared online. For last-minute, download and print from home or share a digital file
+                    instantly.</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <!-- LOVE STORIES -->
+    <div id="lovestories" class="container mt-5 text-center bg-light rounded-3 p-4">
+        <h2 style="color:purple;">Grand Gestures of Love Through History</h2>
+        <p class="mt-4 text-danger">These people went far beyond sending cards and chocolates to demonstrate their love.
+        </p>
+
+        <div class="row">
+            <div class="col-6">
+                <h2 class="mb-2">Taj Mahal</h2>
+                <img src="./assests/tajmahal-7879103_1280 (1).jpg" height="300px" width="600px" alt=""
+                    class="rounded-3 mt-3 img-fluid">
+                <p class="text-dark fw-bold text-start mt-3">India’s Taj Mahal took over a decade to build, employed
+                    thousands of workers and nearly bankrupted an
+                    empire—all so a man could express his love for a woman.
+                    <br>
+                    Mughal emperor Shah Jahan commissioned the famed landmark around 1632. It was intended as a tomb for
+                    his third wife, Mumtaz Mahal, who died giving birth to the couple’s 14th child. According to
+                    accounts, the Shah was so despondent after his spouse’s passing that he entered a prolonged period
+                    of mourning, renouncing music and other forms of entertainment for two years.
+                    <br>
+
+                    He built the Taj Mahal—with its elaborate minarets, 250-foot-high domed mausoleum and 42-acre
+                    grounds—primarily as a monument to her memory. When he died in 1666, Shah Jahan was buried alongside
+                    his beloved wife in the Taj’s white marble tomb.
+                </p>
+            </div>
+            <div class="col-6">
+                <h2 class="mb-2">Edward VIII's Abdication of the Throne</h2>
+                <img class="rounded-3 mt-3 img-fluid"
+                    src="https://assets.editorial.aetnd.com/uploads/2017/12/wallis-duchess-of-windsor-and.jpg?width=1080&height=608&crop=1080%3A608%2Csmart&quality=75&auto=webp"
+                    height="300px" width="600px" alt="">
+                <h5 class="text-muted mt-3">Wallis, Duchess of Windsor and the Duke of Windsor outside Government House
+                    in Nassau, the Bahamas.
+                </h5>
+                <p class="text-dark fw-bold text-start mt-3">
+                    The love lives of Britain’s monarchs have long been a source of public fascination, but perhaps the
+                    most romantic royal tale of all concerns King Edward VIII, who chose a woman over the throne.
+                    <br>
+                    Edward became king in 1936 after the death of his father, George V. His brief reign was punctuated
+                    by controversy, most notably his infatuation with a socialite named Wallis Simpson. Not only was
+                    Simpson an American, she was a married woman who had already once divorced. As gossips portrayed
+                    Simpson as everything from a scheming seductress to a German spy, the relationship plunged the
+                    monarchy into crisis.
+                    <br>
+                    Forced to choose between love and crown, Edward abdicated the throne in December 1936. (Some
+                    scholars have speculated that Edward’s Nazi sympathies—rather than his romantic ties—were the true
+                    motivation behind the political push for his abdication.) Simpson quickly divorced her husband, and
+                    she and Edward married in 1937. They spent the rest of their lives in retirement in France.
+                </p>
+            </div>
+            <div class="col-6 mt-5">
+                <h2 class="mt-2">Elizabeth Barrett Browning's Sonnets for Robert Browning</h2>
+                <img class="rounded-3 mt-3 img-fluid"
+                    src="https://assets.editorial.aetnd.com/uploads/2025/02/New-Project-3.jpg?width=1080&height=608&crop=1080%3A608%2Csmart&quality=75&auto=webp"
+                    height="300px" width="600px" alt="">
+                <h5 class="text-muted mt-3">Robert Browning and Elizabeth Barrett Browning, circa 1850s. Both were
+                    prominent poets when they married in 1846. Barrett’s book “Sonnets from the Portuguese,” was a
+                    series of love poems composed when the pair first began their courtship.
+                </h5>
+                <p class="text-dark fw-bold text-start mt-3">
+                    The marriage of poets Elizabeth Barrett Browning and Robert Browning is one of literature’s great
+                    romances, and the couple’s love for one another often spilled over into their work.
+                    <br>
+                    The most famous example came in 1850 with the publication of Barrett’s book “Sonnets from the
+                    Portuguese,” a series of love poems composed when the pair first began their courtship. Barrett only
+                    revealed the work to her husband after hearing him rail against the thematic shortcomings of what he
+                    called “personal poetry.” To counter his argument, she admitted that she had once written a series
+                    of 44 sonnets about her love for him.
+                    <br>
+                    Struck by the beauty of the poems, Browning encouraged his wife to publish them; she finally agreed
+                    but insisted that they be presented as alleged translations of Portuguese sonnets in order to hide
+                    their personal nature. “Sonnets From the Portuguese” contains what many consider some of Barrett’s
+                    most exquisite verses and includes the immortal line, “How do I love thee? Let me count the ways.”
+                </p>
+            </div>
+            <div class="col-6 mt-5">
+                <h2 class="mb-2">Edward VIII's Abdication of the Throne</h2>
+                <img class="rounded-3 mt-3 img-fluid"
+                    src="https://www.sheknows.com/wp-content/uploads/2023/07/joe-dimaggio-marilyn-monroe.png?resize=1280"
+                    height="300px" width="600px" alt="">
+                <h5 class="text-muted mt-3">Marilyn Monroe and Joe DiMaggio in the judge's chambers where they were
+                    married in January 1954.
+                </h5>
+                <p class="text-dark fw-bold text-start mt-3">
+                    Famed baseball player Joe DiMaggio and actress Marilyn Monroe were only married for a volatile 274
+                    days in 1954, but “Joltin’ Joe” remained infatuated with the legendary blonde bombshell for the rest
+                    of his life.
+                    <br>
+                    It was DiMaggi o who secured Monroe’s release from a psychiatric ward when she suffered an emotional
+                    collapse in the wake of her divorce from playwright Arthur Miller, and he was reportedly considering
+                    proposing to her again before her death in 1962.
+                    <br>
+                    DiMaggio never remarried and refused to comment on Monroe’s death to the press. In a famous romantic
+                    gesture, he sent red roses to her grave in Los Angeles three times a week for the next 20 years.
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- LOVE CALCULATOR -->
+    <div style="background-image: url('/assests/heart.jpg'); background-repeat: no-repeat;background-size: cover;"
+        id="lovecalculator" class="container bg-light p-4 mt-5 rounded-3 ">
+        <h2 style="color: red;" class="text-center">Love Calculator</h2>
+        <div class="row">
+            <div class="col-8">
+                <form>
+                    <div class="mb-3 ">
+                        <label for="exampleInputEmail1" class="form-label fw-bolder bg-white rounded-3 p-2 ">Enter your name</label>
+                        <input  style="background-color: darkred;" type="text" class="form-control w-75 fw-bolder text-white" id="name" aria-describedby="emailHelp">
+                        <div id="name" class="form-text "></div>
+                    </div>
+                    <div class="mb-3 ">
+                        <label for="secondname" class="form-label fw-bolder bg-white rounded-3 p-2">Enter your Partner name</label>
+                        <input style="background-color: darkred;"  type="text" class="form-control w-75 fw-bolder text-white" id="secondname">
+                    </div>
+                    <button onclick="result(event)" type="button" class="btn btn-danger">Check-love</button>
+                </form>
+            </div>
+            <div class="col-4 rounded-3">                 
+                    <h1  id="percent" class="bg-white p-3 rounded-3" style="margin-left: 20px;margin-top: 50px;color:darkred;">Heart Match %</h1>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="/index.js"></script>
+</body>
+
+</html>
